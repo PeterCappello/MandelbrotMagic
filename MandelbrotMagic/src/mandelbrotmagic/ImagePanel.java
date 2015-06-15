@@ -16,10 +16,10 @@ import javax.swing.*;
 final class ImagePanel extends JPanel implements MouseListener
 {
     private Model model;
-    private Main main;
+    private MandelbrotMagic main;
     private NodeList modelHistory = new NodeList();
     
-    ImagePanel( Model model, Main main )
+    ImagePanel( Model model, MandelbrotMagic main )
     {
         this.model = model;
         this.main = main;
